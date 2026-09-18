@@ -31,12 +31,15 @@ No toca el juego, no toca Steam, no necesita `sudo` ni internet más allá de la
 
 ## Uso
 
-En Modo Escritorio, abre Konsole:
+En Modo Escritorio, abre Konsole y pega esto (descarga el script, le da permiso y lo ejecuta):
 
 ```bash
+curl -fLO https://raw.githubusercontent.com/MondoBoricua/MT3K-SteamOS-Fixes/main/fixes/x-men-origins-wolverine/mt3k-wolverine-physx-fix.sh
 chmod +x mt3k-wolverine-physx-fix.sh
 ./mt3k-wolverine-physx-fix.sh
 ```
+
+Si prefieres verlo antes de correrlo, ábrelo con `cat mt3k-wolverine-physx-fix.sh`: son 150 líneas comentadas.
 
 Opciones:
 

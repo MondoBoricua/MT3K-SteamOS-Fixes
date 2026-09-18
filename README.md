@@ -11,10 +11,11 @@ Scripts y recetas de **MT3K** para hacer funcionar juegos en **Steam Machine, St
 ## Cómo usar un fix
 
 1. Añade el juego a Steam como juego no-Steam, ponle **GE-Proton** en *Propiedades > Compatibilidad* y ábrelo una vez (aunque se cierre: así Steam crea el prefijo).
-2. En Modo Escritorio, abre Konsole en la carpeta del fix y sigue su README. Casi siempre es:
+2. En Modo Escritorio, abre Konsole y sigue el README del fix. Casi siempre es descargar el script con `curl`, darle permiso y ejecutarlo:
    ```bash
-   chmod +x nombre-del-fix.sh
-   ./nombre-del-fix.sh
+   curl -fLO https://raw.githubusercontent.com/MondoBoricua/MT3K-SteamOS-Fixes/main/fixes/<juego>/<script>.sh
+   chmod +x <script>.sh
+   ./<script>.sh
    ```
 3. Vuelve a Modo Juego y abre el juego.
 
