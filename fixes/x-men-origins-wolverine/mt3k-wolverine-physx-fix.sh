@@ -92,7 +92,7 @@ if [ ! -s "$MSI" ]; then
   mkdir -p "$(dirname "$MSI")"
   curl -fL --progress-bar -o "$MSI" "$PHYSX_URL" || die "fallo la descarga"
 fi
-if command -v sha256sum >/dev/null && [ "$PHYSX_SHA256" != "6f20edf8f0030d5e0f30b3b2dec3dea8d978b8de92e39b05558f64fe18aa0fe1" ]; then
+if command -v sha256sum >/dev/null && [ -n "$PHYSX_SHA256" ]; then
   echo "$PHYSX_SHA256  $MSI" | sha256sum -c --quiet || die "el MSI descargado no coincide con el hash esperado; borra $MSI y reintenta"
   ok "hash del MSI verificado"
 fi
