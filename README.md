@@ -6,6 +6,7 @@ Scripts y recetas de **MT3K** para hacer funcionar juegos en **Steam Machine, St
 
 | Juego | Problema | Fix |
 |---|---|---|
+| [Deadpool](fixes/deadpool/) | Sale siempre en inglés (el idioma va en el registro, que el instalador original escribe y una copia no trae) | Pone el idioma en el registro del prefijo de Proton; opcional: resolución |
 | [X-Men Origins: Wolverine](fixes/x-men-origins-wolverine/) | Se cierra al abrir bajo Proton: le falta PhysX 2.8.1 (el instalador "Legacy" que trae el juego no la incluye) | Instala el PhysX System Software de NVIDIA en el prefijo del juego, automático |
 
 ## Cómo usar un fix
