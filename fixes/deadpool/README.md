@@ -58,7 +58,7 @@ Ejemplo: `./mt3k-deadpool-language.sh --lang ESN --res 2560x1440`
 
 ## Qué esperar
 
-- **Español**: la versión de PC de Steam trae el español como **textos y subtítulos**; las **voces siguen en inglés**. Es castellano, no latino.
+- **Español**: textos y subtítulos en castellano; las **voces siguen en inglés**. Deadpool nunca tuvo doblaje oficial al español en PC: el paquete de español de Steam (depot 224067) pesa 477 KB y es solo el archivo de textos ([SteamDB](https://steamdb.info/app/224060/depots/)).
 - Para volver al inglés: `./mt3k-deadpool-language.sh --lang INT`.
 
 ## Extra: tirones a 59 fps
